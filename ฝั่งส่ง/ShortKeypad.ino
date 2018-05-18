@@ -41,30 +41,29 @@ void loop() {
   if (key != 0) {
     while(ScanKey() == key) delay(10);
 
-
-  if(key == '1')
-    mySerial.print('1');
-  else if (key == '2')
-    mySerial.print('4');
-  else if (key == '3')
-    mySerial.print('7');
-  else if (key == '4')
-    mySerial.print('2');
-  else if (key == '5')
-    mySerial.print('5');
-  else if (key == '6')
-    mySerial.print('8');
-  else if (key == '7')
-    mySerial.print('3');
-  else if (key == '8')
-    mySerial.print('6');
-  else if (key == '9')
-    mySerial.print('9');
-  else if (key == '*')
-    mySerial.print('*');
-  else if (key == '0')
-    mySerial.print('#');
-  else if (key == '#')
-    mySerial.print('0');
+    if(key == '1')
+      mySerial.print('1');
+    else if (key == '2')
+      mySerial.print('4');
+    else if (key == '3')
+      mySerial.print('7');
+    else if (key == '4')
+      mySerial.print('2');
+    else if (key == '5')
+      mySerial.print('5');
+    else if (key == '6')
+      mySerial.print('8');
+    else if (key == '7')
+      mySerial.print('3');
+    else if (key == '8')
+      mySerial.print('6');
+    else if (key == '9')
+      mySerial.print('9');
+    else if (key == '*')
+      mySerial.print('*');
+    else if (key == '0')
+      mySerial.print('#');
+    else if (key == '#')
+      mySerial.print('0');
   }
 }
